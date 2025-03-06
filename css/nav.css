@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    text-indent: 10px;
+    background-color: rgb(253, 184, 36);
+    border: 1px white solid;
+    border-radius: 50px;
+  }
+  
+  header section[class="nav-bar"] {
+    display: flex;
+    margin-left: 170px;
+  }
+  
+  header section[class="nav-bar"] p {
+    font-size: 25px;
+    color: rgb(168, 36, 36);
+  }
+  
+  header section[class="nav-bar"] a {
+    text-decoration: none;
+  }
+  
+  header h1 {
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    align-self: flex-start;
+  }
