@@ -9,27 +9,43 @@
     <script src="js/index.js" defer></script>
   </head>
   <body>
-    <header>
-      <h1>Ethan's Portfolio</h1>
+    <header class="nav-bar">
+      <h1>Ethan Toups</h1>
 
-      <section class="nav-bar">
-        <a href="index.html">
-          <p>| Home |</p>
-        </a>
-        <a href="about.html">
-          <p>About Me |</p>
-        </a>
-        <a href="portfolio.html">
-          <p>My Portfolio |</p>
-        </a>
+      <section class="items">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="portfolio.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
       </section>
     </header>
 
-    <section class="intro">
-      <img src="img/me1.jpg" />
-      <p>
-        Some things I have done in my programming journey is a lot of projects related to Java, Python, & Springboot Applications. I know my way around HTML, but I never really got into CSS. I usually had someone else styling while I would do the scripts for the Web Requests to the Rest App.
-      </p>
+    <section class="main">
+      <section class="intro">
+        <h1>My Knowledge</h1>
+        <p>
+          Some things I have done in my programming journey are a lot of projects related to Java, Python, & Springboot Applications. I know my way around HTML, but I never really got into CSS. I usually had someone else styling while I would do the scripts for the Web Requests to the Rest Applications.
+        </p>
+      </section>
+      <section class="intro">
+        <h1>My Best Project</h1>
+        <p>When I say my best project. It's a project that I not only learned a lot while I was developing it, but enjoyed writing every line of code. Now, it wasn't all sunshine & rainbows. I might've lost my mind one or two times while making it, but it's a production core used on Minecraft servers. This core tracks server data, player ranks, player metadata, accounts related to other accounts, and much more. It also has an adaptive logging system with many implementations if you want to integrate it with a website. This project integrates the Minecraft API, Mongo Database, Redis Pub Subs, JDA, and Minecraft Velocity.</p>
+        <a href="https://github.com/LBuddyBoy/mCore"><img class="github" src="img/github.png" target="_blank"></a>
+      </section>
     </section>
+
+    <footer class="footer">
+      <section class="contactCards">
+        <section class="githubCard">
+          <h1 class="contactHeader">GitHub</h1>
+          <a href="https://github.com/LBuddyBoy"><img src="img/github.png" class="contactImage"></a>
+        </section>
+        <section class="linkedInCard">
+          <h1 class="contactHeader">Linkedin</h1>
+          <a href="https://github.com/LBuddyBoy"><img src="img/linkedin.png" class="contactImage"></a>
+        </section>
+      </section>
+    </footer>
+
   </body>
 </html>
